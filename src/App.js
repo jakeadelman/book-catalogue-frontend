@@ -7,7 +7,7 @@ import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:3001/graphql',
+  uri: 'https://floating-chamber-82785.herokuapp.com//graphql',
   cache: new InMemoryCache(),
 });
 
