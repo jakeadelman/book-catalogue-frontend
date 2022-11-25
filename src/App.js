@@ -7,7 +7,7 @@ import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 
 const client = new ApolloClient({
-  uri: 'https://floating-chamber-82785.herokuapp.com/graphql',
+  uri: 'https://warm-earth-34098.herokuapp.com/graphql',
   cache: new InMemoryCache(),
 });
 
